@@ -1,0 +1,65 @@
+h1 {
+    color: rgb(126, 11, 107);
+    font-size: 3em;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgba(0, 100, 0, 0.527);
+}
+
+body {
+    background-image: url("rock.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2%;
+    background-size: cover;
+}
+
+#container {
+
+    background-color: rgba(0, 100, 0, 0.527);
+    padding: 70px;
+  
+}
+
+#borg {
+    color: rgb(0, 83, 21);
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
